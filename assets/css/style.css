@@ -19,7 +19,7 @@ body{
 
 .second-bg {
     background-image: url('../images/second-bg.png');
-    background-size: 102% 100%;
+    background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -136,6 +136,13 @@ body{
     padding-top: 30px;
 }
 
+.whatsapp{
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+    align-items: center;
+    text-align: center;
+}
 .whatsapp-text{
     color: #7A7A7A;
     font-family: Calibri;
@@ -171,7 +178,7 @@ body{
     height: 65px;
     color: #FFF;
     font-family: Calibri;
-    font-size: 32px;
+    font-size: 28px;
     font-weight: 700;
     line-height: normal;
     text-decoration: none;
@@ -484,6 +491,10 @@ body{
     padding: 10px;
 }
 
+.whatsapp-button:hover{
+    background: #EDEDED;    
+    cursor: pointer;
+}
 @media screen and  (max-width:767px) {
 
 .navbar-brand img{
